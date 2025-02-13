@@ -22,6 +22,7 @@ public class fungsi {
     }
 
     static void penjualan(){
+        System.out.println("====================================================");
         System.out.println("\n\t\tPendapatan Tiap Cabang");
         System.out.println("====================================================");
         for (int i = 0; i < stockBunga.length; i++) {
@@ -34,6 +35,7 @@ public class fungsi {
     }
 
     static void sisaStock(){
+        System.out.println("====================================================");
         System.out.println("\n\t\tPerubahan Stock Bunga");
         System.out.println("====================================================");
         int bungaMati[] = {1, 2, 0, 5};
