@@ -56,18 +56,14 @@ public class tugas3 {
         subMenu = jadwal.nextInt();
         jadwal.nextLine();
 
-        switch (subMenu) {
-            case 1:
-                seluruhJadwal();
-                break;
-            case 2:
-                jadwalHari();
-                break;
-            case 3:
-                jadwalSms();
-                break;
-            default:
-                System.out.println("Menu tidak valid");
+        if(subMenu == 1){
+            seluruhJadwal();
+        } else if(subMenu == 2){
+            jadwalHari();
+        } else if(subMenu == 3){
+            jadwalSms();
+        } else{
+            System.out.println("Menu tidak valid");
         }
     }
 
